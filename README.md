@@ -11,7 +11,7 @@
 - **웹 및 모바일 지원**: 브라우저에서 실행 가능
 
 
-![설명](./processD.png)
+![설명](assets/processD.png)
 ---
 
 ### 📌 개발 목표
@@ -94,7 +94,7 @@
 6. **변환된 프레임을 WebRTC를 통해 -> 클라이언트 B에게 전송**
 
 
-![설명](./sequenceMain.png)
+![설명](assets/sequenceMain.png)
 ---
 ### 📌 상세 기능
 
@@ -107,7 +107,7 @@
 
 #### ✅ 3. Roop 프레임 변환 서버 (AI 딥페이크 서버)
 
-![설명](./deepseq.png)
+![설명](assets/deepseq.png)
 
 - 클라이언트에서 WebRTC로 전달된 프레임을 수신
 1) 얼굴 감지(Face Detection) : 입력된 비디오나 이미지에서 얼굴을 찾아냄.
@@ -125,15 +125,15 @@ GFPGAN 이미지 복원 및 품질 향상 기술을 함께 사용해 자연스�
 ### 📍 클래스 다이어그램
 - **webRTC Server**
   
-![설명](./webrtcS.png)
+![설명](assets/webrtcS.png)
 
 - **Broadcaster**
   
-![설명](./broadC.png)
+![설명](assets/broadC.png)
 
 - **Deepfake Server**
   
-![설명](./deepF.png)
+![설명](assets/deepF.png)
 
 ---
 ### 📌 오류 검증 및 일관성 검증
